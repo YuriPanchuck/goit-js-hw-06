@@ -16,4 +16,4 @@ function onFormSubmit(event) {
   formData.password = event.currentTarget.elements.password.value;
   event.currentTarget.reset();
 }
-console.log(formData);
+console.log("email": email.value, "password": password.value);
